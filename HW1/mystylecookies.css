@@ -66,3 +66,19 @@ li:before {
     margin-bottom: 50px;
     margin-right: 75px;
   }
+
+  a:visited {
+    color: green;
+  }
+
+  a:hover {
+    color: hotpink;
+  }
+
+  a:active {
+    color: blue;
+  }
+
+  a:link {
+    color: red;
+  }

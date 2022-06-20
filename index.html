@@ -1,42 +1,206 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first web page with Front End Dev!</title>
-    <link rel="stylesheet" href="mystylecookies.css">
+    <title>My Subject Page</title>
+    <meta charset="utf-8" />    
+    <link rel="stylesheet" href="HW2.css">
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<body>
-    <div id="content">
-        <img src="soup.jpg">
-        <div class="centered">French Onion Soup</div>
-        <h1>We have been trying French onion soup in restaurants for years and my family and friends agree none can compare to my recipe for taste and simplicity of preparation.</h1>
-    </div>
-    <img src="recipe-info.png" id="photo" >
-    <hr>
+<body> 
+<nav class="navbar">
+    <ul class="listLinks">
+        <li><a href="HomePage.html">Home</a></li>
+        <li><a href="InformationTechnology.html">IT</a></li>
+        <li><a href="#lohin">log in</a></li>
+        <li><a href="#Products">Products</a></li>
+        <li><a href="#connect">Connect with us</a></li>
+    </ul>
+</nav>
 
-    <dl>
-        <h2>INGREDIENTS</h2>
-        <dt>- 1/2 cup unsalted butter</dt>
-        <dt>- 2 tablespoons olive oil</dt>
-        <dt>- 4 cups chopped onions</dt>
-        <dt>- 4 cans of beef broth (10.5 ounces)</dt>
-        <dt>- 2 tablespoons dry sherry (optional)</dt>
-        <dt>- 1 teaspoon dried thyme Salt and pepper to taste</dt>
-        <dt>- Salt and pepper to taste</dt>
-        <dt>- 4 slices bread  French</dt>
-        <dt>- 4 slices provolone cheese</dt>
-        <dt>- 2 slices swiss cheese, diced</dt>
-        <dt>- 1/4 cup grated Parmesan cheese</dt>
-        </dl>
-        <img src="cooking-info.png" id="photo" >
-        <hr>
-        <ol>
-            <h2>Directions</h2>
-            <li>Melt butter and olive oil in an 8-quart saucepan over medium heat.  Add onions, stirring constantly, until soft and translucent.  Do not fry the onions.</li>
-            <li>Add meat broth, sherry and thyme.  Season with salt and pepper and simmer for 30 minutes.</li>
-            <li>Preheat the oven grill.</li>
-            <li>Place soup in oven-safe serving bowls and place one slice of bread on top of each (bread may be broken into pieces if you prefer).  Layer each slice of bread with provolone, half a Swiss slice, and 1 tablespoon of Parmesan cheese.  The utensils are placed on a cookie sheet and roasted in the preheated oven until the cheese bubbles and is slightly browned.</li>
-        </ol>
+<div class="rcorners" id="login">
+    <form>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+          </div>
+        </div>
+        <button type="button" class="btn btn-outline-success">log in</button>
+          </div>
+        </div>
+      </form>
+</div>
+
+
+<div class="row row-cols-1 row-cols-md-3 g-4" class="container" id="Products">
+    <div class="col" class="item">
+      <div class="card">
+        <a target="_blank" href="img1.png"><img src="img1.png" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">women</h5>
+          <p class="card-text">Day Jersey Long Sleeve T-Shirt </p>
+        </div>
+      </div>
+    </div>
+    <div class="col" class="item">
+      <div class="card">
+        <a target="_blank" href="img2.png"><img src="img2.png" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">women</h5>
+          <p class="card-text">Day Jersey Long Sleeve T-Shirt </p>
+        </div>
+      </div>
+    </div>
+    <div class="col" class="item">
+      <div class="card">
+        <a target="_blank" href="img3.png"><img src="img3.png" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">women</h5>
+          <p class="card-text">CVC Short Sleeve Crew.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col" class="item">
+      <div class="card">
+        <a target="_blank" href="img4.png"><img src="img4.png" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">women</h5>
+          <p class="card-text">Women’s Triblend Long Sleeve Scoop</p>
+        </div>
+      </div>
+    </div>
+    <div class="col" class="item">
+      <div class="card">
+        <a target="_blank" href="img5.png"><img src="img5.png" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">women/men</h5>
+          <p class="card-text">Laguna Hoodie</p>
+        </div>
+      </div>
+    </div>
+    <div class="col" class="item">
+      <div class="card">
+        <a target="_blank" href="img6.png"><img src="img6.png" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">women</h5>
+          <p class="card-text">Women’s Freedom Long Sleeve T-Shirt </p>
+        </div>
+      </div>
+    </div>
+    <div class="col" class="item">
+      <div class="card">
+        <a target="_blank" href="img7.png"><img src="img7.png" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">women</h5>
+          <p class="card-text">Women’s Freedom Long Sleeve T-Shirt </p>
+        </div>
+      </div>
+    </div>
+    <div class="col" class="item">
+      <div class="card">
+        <a target="_blank" href="img8.png"><img src="img8.png" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">men</h5>
+          <p class="card-text">
+            Garment-Dyed Heavyweight Hooded Long Sleeve T-Shirt</p>
+        </div>
+      </div>
+    </div>
+    <div class="col" class="item">
+      <div class="card">
+        <a target="_blank" href="img9.png"><img src="img9.png" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">men</h5>
+          <p class="card-text">
+            Garment-Dyed Heavyweight Hooded Long Sleeve T-Shirt</p>
+        </div>
+      </div>
+    </div>
+    <div class="col" class="item">
+      <div class="card">
+        <a target="_blank" href="img10.png"><img src="img10.png" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">women/men</h5>
+          <p class="card-text">Garment-Dyed Heavyweight Hooded Long Sleeve T-Shirt dinosaur print</p>
+        </div>
+      </div>
+    </div>
+    <div class="col" class="item">
+      <div class="card">
+        <a target="_blank" href="img11.png"><img src="img11.png" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">kids</h5>
+          <p class="card-text">Youth Multi-Color Spiral Tie-Dyed T-Shirt and short</p>
+        </div>
+      </div>
+    </div>
+    <div class="col" class="item">
+      <div class="card">
+        <a target="_blank" href="img12.png"><img src="img12.png" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">kids</h5>
+          <p class="card-text">Youth Poly-Rich T-Shirt and short</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <table>
+    <tr>
+      <td>women</td>
+    </tr>
+    <tr>
+      <td>men</td>
+    </tr>
+    <tr>
+      <td>kids</td>
+    </tr>
+  </table>
+
+<div class="rcorners2" id="connect">
+    <div class="form2" >
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            </div>
+            <div><button type="button" class="btn btn-outline-success">Send Message</button>
+            </div>
+          </form>
+</div>
+</div>
+
+</div>
+  
+<ul class="background">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+ </ul>
 </body>
 </html>
