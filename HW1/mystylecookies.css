@@ -1,0 +1,84 @@
+h1, body, html, main {
+    margin: 50px;
+  }
+  html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px
+  }
+  h1{
+    font-size: 22px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+  hr{
+    width:90%;text-align:left;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color:gray
+  }
+  dl {
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+
+  ol { 
+    counter-reset: item;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 50px;
+}
+li { display: block; }
+li:before { 
+    content: counter(item) ")"; 
+    counter-increment: item 
+}
+  img{
+      align-items: top;
+      padding: auto;
+      margin: auto;
+      width: 100%;
+  }
+
+  #photo{
+    width: 30%;
+    margin: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .centered {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size:400%;
+    text-align: center;
+  }
+
+  h2{
+    margin-bottom: 50px;
+    margin-right: 75px;
+  }
+
+  a:visited {
+    color: green;
+  }
+
+  a:hover {
+    color: hotpink;
+  }
+
+  a:active {
+    color: blue;
+  }
+
+  a:link {
+    color: red;
+  }
